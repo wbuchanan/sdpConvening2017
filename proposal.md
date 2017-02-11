@@ -38,13 +38,13 @@ Specifically this session will focus on leveraging the version control system [G
 
 
 # Checklist
-[x] Skill-based Session
-[x] Discussion
-[] Working-session
-[x] Consultancy
-[] Research Presentation
-[] Research Methods Session
-[] Panel Presentation
-[x] Case Study
-[] Other: (Explanation .....)
+- [x] Skill-based Session
+- [x] Discussion
+- [ ] Working-session
+- [x] Consultancy
+- [ ] Research Presentation
+- [ ] Research Methods Session
+- [ ] Panel Presentation
+- [x] Case Study
+- [ ] Other: (Explanation .....)
 
