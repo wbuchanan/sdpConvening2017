@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>SDP 2017 Convening - Using Git</title>
+
+		<meta name="description" content="Using Git to Promote Collaboration and Reproducible Research">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/solarized.css" id="theme">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+
+<!--
+		<script>
+			imgselect = function() {
+				var imgsel = d3.select("select#imgselector").property("value");
+				d3.select("img#image").attr("src", imgsel);
+			};
+		</script>
+-->
+	</head>
+
+	<!-- This is the starting point for all of the content.  If we want to use a set of connected slides, I can create a bigger 
+	splash page that would let us navigate from the same starting point into individual sections of the slide deck. -->
+	<body>
+
+		<!-- This is the container for all of the content (e.g., all the slides).  It needs to have a class of reveal in 
+		order for the JavaScript library to handle changing the slides and things like that correctly.  -->
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+
+				<!-- This would be the title slide -->
+				<section>
+					<h1>Using Git to Promote Collaboration and Reproducible Resarch</h1>
+				</section>
+				<section>	
+					<table style="font-size:93%">
+						<thead>
+							<tr>
+								<td style="border-top: 1px solid">Who</td>
+								<td style="border-top: 1px solid">What</td>
+								<td style="border-top: 1px solid">Where</td>
+								<td style="border-top: 1px solid">Cohort</td>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td style="border-bottom: none"><a href="https://github.com/nathant23">Nathan Trenholm</a></td>
+								<td style="border-bottom: none">Partner</td>
+								<td style="border-bottom: none"><a href="https://www.datainsightpartners.com">Data Insight Partners</a></td>
+								<td style="border-bottom: none">6</td>
+							</tr> 
+							<tr>
+								<td style="border-bottom: none"><a href="https://github.com/daphnejenkins">Daphne Jenkins</a></td>
+								<td style="border-bottom: none">Data Engineer</td>
+								<td style="border-bottom: none"><a href="http://www.fcps.net/">FCPS</a></td>
+								<td style="border-bottom: none">5</td>
+							</tr>
+							<tr>
+								<td style="border-bottom: none"><a href="https://github.com/jsonbecker">Jason Becker</a></td>
+								<td style="border-bottom: none">Chief Product Officer</td>
+								<td style="border-bottom: none"><a href="http://allovue.com/">Allovue</a></td>
+								<td style="border-bottom: none">4</td>
+							</tr>
+							<tr>
+								<td style="border-bottom: 1px solid"><a href="https://github.com/wbuchanan">Billy Buchanan</a></td>
+								<td style="border-bottom: 1px solid">Director of Data, Research, &amp; Accountability</td>
+								<td style="border-bottom: 1px solid"><a href="http://www.fcps.net/">FCPS</a></td>
+								<td style="border-bottom: 1px solid">5</td>
+							</tr>
+						</tbody>	
+					</table>
+					<br><br>
+					<div style="font-size:36px; font-weight:bold"><a href="https://wbuchanan.github.io/sdpConvening2017">Slides available at: https://wbuchanan.github.io/sdpConvening2017</a></div>
+				</section>
+
+				<!-- Press the right arrow key to move to a new section -->
+				<section>
+
+					<!-- need a container in the slide to store the content we are wanting to display. -->
+					<div>
+
+						<!-- Create an ordered list of bullet points -->
+						<ol>
+							<li>Intro to Git</li>
+							<li>Challenges for New Users</li>
+							<li>Collaborative Work Flows</li>
+							<li>Product Management Strategies</li>
+							<li>Q &amp; A</li>
+						</ol>
+					</div>
+				</section>
+
+				<!-- For big sections we can use the up/down arrow keys for navigation (e.g., diving deeper into the content). -->
+				<section>
+
+					<!-- h1 tags are way too big, but an h2 tag is pretty good for a section title -->
+					<h2>Section Title Here</h2>
+
+					<!-- Press the down arrow to navigate within the top level section tag -->
+					<section>
+					
+						<!-- The extra space here helps to avoid the <h2> and <h3> tags over lapping -->
+						<br><br>
+						<h3>Subsection title here</h3>
+					
+						<!-- Use a div tag for the generic container for your content -->
+						<div>
+					
+							<!-- Use ul for bullets and ol for numbered bullet list -->
+							<ul>
+					
+								<!-- Use li tags around the individual bullet points -->
+								<li>Your bullet point</li>
+					
+									<!-- If you want nested lists you can do that too -->
+									<ol>
+					
+										<!-- First bullet point -->
+										<li>First sub point</li>
+										<li>Second sub point</li>
+					
+									<!-- Just remember to close every tag you open -->
+									</ol>
+					
+								<!-- This would be the second bullet point that isn't ordered -->
+								<li>Second unordered bullet point</li>
+					
+							<!-- Using tabs to show the nesting depth of your code will make it easier to identify where you need closing tags -->
+							</ul>
+					
+						<!-- This would close the end of the container for the content on this slide -->	
+						</div>	
+						
+						<!-- If you want to have notes available that only you will be able to see for a slide you can use the aside tag
+	      					and when you get to the slide deck on the computer you're using for the presentation hit the 'S' key to get into 
+						presenter mode.  It will show your notes and the next slide that is coming up along with a timer (very useful).  -->
+						<aside class="notes">
+
+							<!-- Anthing that is valid HTML can be used for your notes. -->
+							<ul>
+								<li>You can create presentation notes inside of a <pre>aside</pre> tag</li>
+							</ul>
+
+							<!-- You Can create paragraphs of content as well -->
+							<p>
+								Here is some random paragraph of content that I want to remember to tell people about.
+							</p>
+
+						</aside>
+
+					<!-- If there is another slide you would press the down arrow to get to it.  Think of this like you're going deeper
+	     				into the particular topic area versus switching to a new topic area with the left/right arrow keys. -->
+					</section>
+
+					<!-- Press the down arrow to get here -->
+					<section>
+						<br><br>
+						<h3>Some other related sub title</h3>
+						<div>
+							<!-- If you need/want to use any math, you can process LaTeX in the slide deck too -->
+							<p>
+								$$Pr(Y_{ij} = k | \theta_j) = \frac{exp^{ (\Sigma_{t=1}^k\alpha(\theta_j-\beta_{it}) ) }}{1 + \Sigma_{s = 1}^K exp^{ (\Sigma_{s=1}^s\alpha(\theta_j-\beta_{it}) ) } }  $$
+							</p>
+						</div>
+
+						<!-- Now you would see new notes for this individual slide.  The audience can only see it if you show them your view of things. -->
+						<aside class="notes">
+							<ul>
+								<li>The $N(0, 1)$ part just means that $\theta$ is normally distributed with a mean of 0 and standard deviation of 1</li>
+								<li>This model is used when you are using polytomous items, and reduces to the 1PL model if used with binary items</li>
+							</ul>
+						</aside>
+					</section>
+
+				<!-- Now we have an end of a big section.  -->
+				</section>
+
+				<!-- To get to this section you would use the left/right arrow keys -->
+				<section>
+
+					<h2>Big Section title</h2>
+					<section>
+						<br> <br>
+						<h3>This would also be a subsection title</h3>
+						<div>
+							<p> If you want to see any slide decks like this, I created this template from the <a href="https://github.com/hakimel/reveal.js/">Reveal.JS</a> sample and modified it for <a href="https://wbuchanan.github.io/kaacSlideDeck/#/">a talk about open source psychometrics</a> that I did in Louisville.</p>
+						</div>
+					</section>
+					<section>
+						<br><br>
+						<h3>Last sub section title</h3>
+						<div>
+							<p>Slides that can be integrated easily (if we want to all use the same styling and things like that) can be generated from <code>R</code> using the <code>revealjs</code> package: </p><br>
+								<pre>
+									<code data-trim data-noescape> 
+# Copy and paste this code to install package needed to generate slide decks
+# using the same JavaScript library in R
+install.packages("revealjs", type = "source")
+									</code>
+								</pre><br>
+							<p>See <a href="https://github.com/rstudio/revealjs">the package repository</a> for any additional information.	</p>
+						</div>
+					</section>
+				</section>
+
+				<!-- Template for a slide that would be used to navigate from left to right -->
+				<section>
+					<h2>Section Title</h2>
+					<div>
+						<ul>
+							<li></li>
+							<li></li>
+							<li></li>
+						</ul>
+					</div>
+				</section>
+
+				<!-- Template for slides that would be used to create top to bottom navigation -->
+				<section>
+					<h2>Section Title</h2>
+					<section>
+						<br><br>
+						<h3>Sub-section 1</h3>
+						<div>
+							<ul>
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+					</section>
+					<section>
+						<br><br>
+						<h3>Sub-section 2</h3>
+						<div>
+							<ul>
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+					</section>
+					<section>
+						<br><br>
+						<h3>Sub-section 3</h3>
+						<div>
+							<ul>
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+					</section>
+				</section>
+
+				<!-- If you want to include presentation notes, here is a 
+				template you can use to insert into slides for that structure too -->
+				<aside class="notes">
+					<ul>
+						<li>Point 1</li>
+						<li>Point 2</li>
+						<li>Point 3</li>
+					</ul>	
+				</aside>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: false,
+				history: true,
+				center: true,
+                overview: true,
+                touch: true,
+                width: '90%',
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+                transitionSpeed: 'slow',
+                backgroundTransition: 'fade',
+
+				math: {
+					mathjax: 'https://cdn.mathjax.org/mathjax/latest/MathJax.js',
+					config: 'TeX-AMS_HTML-full'  // See http://docs.mathjax.org/en/latest/config-files.html
+				},
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/math/math.js', async: true }
+				]
+			});
+
+		</script>
+	</body>
+</html>
