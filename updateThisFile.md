@@ -1,10 +1,10 @@
 # Completed List
 
 ## Session Presenters
-`- [ ] Nathan Trenholm`
-`- [ ] Daphne Jenkins`
-`- [ ] Jason Becker`
-`- [x] Billy Buchanan`
+- [ ] Nathan Trenholm
+- [ ] Daphne Jenkins
+- [ ] Jason Becker
+- [x] Billy Buchanan
 
 ## Session Participants
 - [ ]	Alex Bowers
