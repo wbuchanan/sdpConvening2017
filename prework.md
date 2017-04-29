@@ -42,7 +42,7 @@ __1. The first thing you should do is make sure you've installed [Git](https://g
 
 __2. If you've downloaded one of the installers, run the installer and follow the prompts on the screen.__
 
-__3. If you're a Windows user, you'll definitely want to make sure [Git BASH](https://git-for-windows.github.io/) gets installed and may want to allow the installer to add some *nix flavored commands to `cmd.exe` to avoid having to remember *nix commands vs DOS commands.
+__3. If you're a Windows user, you'll definitely want to make sure [Git BASH](https://git-for-windows.github.io/) gets installed and may want to allow the installer to add some *nix flavored commands to `cmd.exe` to avoid having to remember *nix commands vs DOS commands.__
 
 
 ## <a name="github"></a>  GitHub Setup
@@ -53,19 +53,19 @@ __2. There will be an option to use [two factor authentication](https://github.c
 
 __3. Once you've created and verified your account [click here](https://github.com/wbuchanan/sdpConvening2017/tree/prework) to get back to this page.__
 
-__4. Fork the repository : __
+__4. Fork the repository__ : 
 
 
 ![Fork the repository](https://github.com/wbuchanan/sdpConvening2017/blob/prework/img/forkThisRepo.png)
 
 
-__It will look like this if it is working :__
+__It will look like this if it is working__ :
 
 
 ![Fork Working](https://github.com/wbuchanan/sdpConvening2017/blob/prework/img/forkWorking.png)
 
 
-__5. If you're not on the prework branch already, you'll want to navigate to the pre-work branch: __
+__5. If you're not on the prework branch already, you'll want to navigate to the pre-work branch__ :
 
 
 ![Branch Navigation](https://github.com/wbuchanan/sdpConvening2017/blob/prework/img/branchNavigation.png)
@@ -77,13 +77,13 @@ __6. Next, click on the link for the file named `updateThisFile.md` in your fork
 ![Prework File](https://github.com/wbuchanan/sdpConvening2017/blob/prework/img/preworkFile.png)
 
 
-__7. Click on the pencil icon to edit the file : __
+__7. Click on the pencil icon to edit the file__ :
 
 
 ![Edit File](https://github.com/wbuchanan/sdpConvening2017/blob/prework/img/editFile.png)
 
 
-__8. Modify this file to let us know that you've completed the pre-work (there's only one more step to complete and it is pretty easy).  Find your name in the completed list.  It will look something like this when you are viewing the file to edit it:__
+__8. Modify this file to let us know that you've completed the pre-work (there's only one more step to complete and it is pretty easy).  Find your name in the completed list.  It will look something like this when you are viewing the file to edit it__ :
 
 ```
 - [ ] Nathan Trenholm
@@ -92,7 +92,7 @@ __8. Modify this file to let us know that you've completed the pre-work (there's
 - [ ] Billy Buchanan
 ```
 
-__To indicate that you've made it this far and to see how [Git](https://git-scm.com) can help you keep track of things, you'll put the letter `x` between the square brackets next to your name like this:__
+__To indicate that you've made it this far and to see how [Git](https://git-scm.com) can help you keep track of things, you'll put the letter `x` between the square brackets next to your name like this__ :
 
 
 ```
@@ -102,19 +102,19 @@ __To indicate that you've made it this far and to see how [Git](https://git-scm.
 - [x] Billy Buchanan
 ```
 
-__10. Add a commit message with your name in the subject line and a message letting us know how easy - _or not_ - it was to complete the pre-work and commit the change to your repository : __
+__10. Add a commit message with your name in the subject line and a message letting us know how easy - _or not_ - it was to complete the pre-work and commit the change to your repository__ :
 
 
 ![Commit Button and Message](https://github.com/wbuchanan/sdpConvening2017/blob/prework/img/commitChanges.png)
 
 
-__If you've been successful up to this point you'll see the file that you just edited with the changes saved:__
+__If you've been successful up to this point you'll see the file that you just edited with the changes saved__ :
 
 
 ![Post Commit File View](https://github.com/wbuchanan/sdpConvening2017/blob/prework/img/commitedChanges.png)
 
 
-__11. This is the last step...click the button to submit a pull request : __
+__11. This is the last step...click the button to submit a pull request__ :
 
 
 ![Pull Request Button](https://github.com/wbuchanan/sdpConvening2017/blob/prework/img/pullRequestButton.png) 
