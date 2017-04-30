@@ -120,6 +120,12 @@ __11. This is the last step...click the button to submit a pull request__ :
 ![Pull Request Button](https://github.com/wbuchanan/sdpConvening2017/blob/prework/img/pullRequestButton.png) 
 
 
+__Depending on how your account is configured you may not see the green button indicated in the screen shot above.  In that case the screen shot below will show you where to click__ : 
+
+
+![Pull Request Alt Button](https://github.com/wbuchanan/sdpConvening2017/blob/prework/img/pullRequestButtonAlt.png)
+
+
 __and use this phrase for the message: `I can haz all the stickerz!`.__
 
 
