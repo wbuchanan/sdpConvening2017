@@ -3,7 +3,7 @@
 ## Session Presenters
 - [ ] Nathan Trenholm
 - [ ] Daphne Jenkins
-- [ ] Jason Becker
+- [X] Jason Becker
 - [x] Billy Buchanan
 
 ## Session Participants
