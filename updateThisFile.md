@@ -15,7 +15,7 @@
 - [ ]	Thomas Hay
 - [ ]	Kathryn Johnson
 - [ ]	Jared Knowles
-- [ ]	Sarah Kolbe
+- [x]	Sarah Kolbe
 - [ ]	Michael LaMont
 - [ ]	Jacob Lopez
 - [ ]	Laura Maurizi
