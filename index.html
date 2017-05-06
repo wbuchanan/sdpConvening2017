@@ -34,6 +34,14 @@
 		<script src="lib/js/html5shiv.js"></script>
 		<![endif]-->
 
+		<style type="text/css">
+			table .titlePageTable, tr, td {
+				font-size: 36px;
+				border: none !important;
+			}
+		</style>
+		<link rel="stylesheet" href="plugin/title-footer/title-footer.css">
+
 	</head>
 
 	<!-- This is the starting point for all of the content.  If we want to use a set of connected slides, I can create a bigger 
@@ -48,23 +56,35 @@
 			<div class="slides">
 
 				<!-- This would be the title slide -->
-				<section width="100%">
-					<p>
-						<img height="auto" width="29.25%" align="left" style="display: block; position: absolute; top: -50px; left: -5px; border:none; outline:none;" src="https://static.hwpi.harvard.edu/files/styles/os_files_xxlarge/public/cepr/files/cepr_logo_3color.png?m=1493107543&itok=LGbV97QB">
-						<img height="auto" width="auto" align="left" style="border:none; outline:none; display: block" src="img/banner.svg"/>
-					</p>
-					<span width="100%">
-						<h3 style="display: inline-block">Using Git to Promote Collaboration and Reproducible Resarch</h3>
-					</span>
-					<p>
-						<p style="font-size: 36px"><a href="https://github.com/nathant23">Nathan Trenholm</a>, <a href="https://www.datainsightpartners.com">Data Insight Partners</a> - Cohort 6 </p>
-						<p style="font-size: 36px"><a href="https://github.com/daphnejenkins">Daphne Jenkins</a>, <a href="http://www.fcps.net">Fayette County Public Schools</a> - Cohort 5</p>
-						<p style="font-size: 36px"><a href="https://github.com/jsonbecker">Jason Becker</a>, <a href="http://allovue.com/">Allovue</a> - Cohort 4</p>
-						<p style="font-size: 36px"><a href="https://github.com/wbuchanan">Billy Buchanan</a>, <a href="http://www.fcps.net">Fayette County Public Schools</a> - Cohort 5</p>
-					</p>
-					<p>
-						<a href="https://twitter.com/HarvardCEPR">@HarvardCEPR</a>  &#8226   <a href="https://twitter.com/search?q=%23SDPConvening&src=typd">#SDPConvening</a><br><br><br>
-					</p>
+				<section data-state="no-title-footer">
+					<div style="display: inline-block;">
+						<img height="auto" width="auto" align="left" style="display: block; position: relative;  border:none; outline:none;" src="img/CEPRlogo.svg">
+						<img height="auto" width="125%" align="left" style="display: block; position: relative;  border:none; outline:none;" src="img/conveningBanner.svg"/>
+					</div>
+					<div align="left" width="100%" style="display: block;">
+						<h2>Using Git to Promote Collaboration and Reproducible Resarch</h2>
+					</div>
+					<div width="100%" style="display: block;">
+						<table align="left" class="titlePageTable" style="display: inline-block;">
+							<tr>
+								<td><a href="https://github.com/nathant23">Nathan Trenholm</a></td><td>Partner</td><td><a href="https://www.datainsightpartners.com">Data Insight Partners</a></td><td>Cohort 6</td>
+							</tr>
+							<tr>
+								<td><a href="https://github.com/daphnejenkins">Daphne Jenkins</a></td><td>Data Engineer</td><td><a href="http://www.fcps.net">Fayette County Public Schools</a></td><td>Cohort 5</td>
+							</tr>
+							<tr>
+								<td><a href="https://github.com/jsonbecker">Jason Becker</a></td><td>Chief Product Officer</td><td><a href="http://allovue.com/">Allovue</a></td><td>Cohort 4</td>
+							</tr>
+							<tr>
+								<td><a href="https://github.com/wbuchanan">Billy Buchanan</a></td><td style="font-size: 28px;">Director of Data, Research, &amp; Accountability</td><td><a href="http://www.fcps.net">Fayette County Public Schools</a></td><td>Cohort 5</td>
+							</tr>
+						</table>
+					</div>
+					<div width="100%" style="display: block;">
+						<p style="display: inline-block;">
+							<a href="https://twitter.com/HarvardCEPR">@HarvardCEPR</a>  &#8226   <a href="https://twitter.com/search?q=%23SDPConvening&src=typd">#SDPConvening</a><br><br><br>
+						</p>
+					</div>
 				</section>
 				<section>
 					<div style="font-size:36px; font-weight:bold"><a href="https://wbuchanan.github.io/sdpConvening2017">Slides available at: https://wbuchanan.github.io/sdpConvening2017</a></div>
@@ -264,6 +284,19 @@ install.packages("revealjs", type = "source")
 
 		</div>
 
+		<div id="hiddenTitle" style="display:none;">
+			<div id="titleOfSlideDeck">
+			</div>
+		</div>
+
+		<div id="hidden" style="display:none;">
+			<div id="header">
+				<div id="footer-left">
+
+				</div>
+			</div>
+		</div>
+
 		<script src="lib/js/head.min.js"></script>
 		<script src="js/reveal.js"></script>
 
@@ -295,7 +328,8 @@ install.packages("revealjs", type = "source")
 					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
 					{ src: 'plugin/zoom-js/zoom.js', async: true },
 					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/math/math.js', async: true }
+					{ src: 'plugin/math/math.js', async: true },
+					{ src: 'plugin/title-footer/title-footer.js', async: true, callback: function() { title_footer.initialize(); }}
 				]
 			});
 
