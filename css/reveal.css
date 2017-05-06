@@ -27,7 +27,7 @@ html, body, .reveal div, .reveal span, .reveal applet, .reveal object, .reveal i
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 36px;
+  font-size: 18px;
   font: inherit;
   vertical-align: baseline; }
 
@@ -1064,23 +1064,23 @@ body {
   letter-spacing: normal; }
 
 .reveal .overlay.overlay-help .viewport .viewport-inner .title {
-  font-size: 20px; }
+  font-size: 12px; }
 
 .reveal .overlay.overlay-help .viewport .viewport-inner table {
-  border: 1px solid #fff;
+  border: none;
   border-collapse: collapse;
-  font-size: 16px; }
+  font-size: 12px; }
 
 .reveal .overlay.overlay-help .viewport .viewport-inner table th,
 .reveal .overlay.overlay-help .viewport .viewport-inner table td {
   width: 200px;
-  padding: 14px;
-  border: 1px solid #fff;
+  padding: 1px;
+  border: none;
   vertical-align: middle; }
 
 .reveal .overlay.overlay-help .viewport .viewport-inner table th {
-  padding-top: 20px;
-  padding-bottom: 20px; }
+  padding-top: 1px;
+  padding-bottom: 1px; }
 
 /*********************************************
  * PLAYBACK COMPONENT
@@ -1152,7 +1152,7 @@ body {
   bottom: 26px;
   padding: 10px;
   z-index: 1;
-  font-size: 18px;
+  font-size: 12px;
   line-height: 1.4;
   color: #fff;
   background-color: rgba(0, 0, 0, 0.5);
@@ -1167,7 +1167,7 @@ body {
 
 @media screen and (max-width: 1024px) {
   .reveal .speaker-notes {
-    font-size: 14px; } }
+    font-size: 12px; } }
 @media screen and (max-width: 600px) {
   .reveal .speaker-notes {
     width: 90%;
