@@ -7,7 +7,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/reveal.css" afterPath="$PROJECT_DIR$/css/reveal.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/reveal.css.map" afterPath="$PROJECT_DIR$/css/reveal.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/reveal.scss" afterPath="$PROJECT_DIR$/css/reveal.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/theme/simple.css" afterPath="$PROJECT_DIR$/css/theme/simple.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -23,11 +22,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="reveal.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="reveal.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/reveal.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="1264" column="65" lean-forward="false" selection-start-line="1264" selection-start-column="60" selection-end-line="1264" selection-end-column="65" />
+            <state relative-caret-position="258">
+              <caret line="394" column="16" lean-forward="false" selection-start-line="394" selection-start-column="16" selection-end-line="394" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -53,20 +52,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownHtmlPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="94">
-                <caret line="58" column="69" lean-forward="false" selection-start-line="58" selection-start-column="69" selection-end-line="58" selection-end-column="69" />
+              <first_editor relative-caret-position="79">
+                <caret line="57" column="53" lean-forward="false" selection-start-line="57" selection-start-column="53" selection-end-line="57" selection-end-column="53" />
                 <folding>
+                  <element signature="n#style#0;n#div#0;n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                   <element signature="n#style#0;n#img#0;n#div#0;n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                   <element signature="n#style#0;n#img#1;n#div#0;n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                   <element signature="n#style#0;n#div#1;n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                   <element signature="n#style#0;n#div#2;n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                   <element signature="n#style#0;n#table#0;n#div#2;n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                   <element signature="n#style#0;n#td#1;n#tr#3;n#table#0;n#div#2;n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                  <element signature="e#3705#3710#0" expanded="true" />
+                  <element signature="e#3689#3694#0" expanded="true" />
                   <element signature="n#style#0;n#div#3;n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                   <element signature="n#style#0;n#p#0;n#div#3;n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                   <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -110,6 +110,7 @@
       <find>font-si</find>
       <find>table</find>
       <find>font-size</find>
+      <find>slides</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -123,9 +124,9 @@
         <option value="$PROJECT_DIR$/plugin/title-footer/title-footer.css" />
         <option value="$PROJECT_DIR$/plugin/title-footer/title-footer.js" />
         <option value="$PROJECT_DIR$/css/reveal.css" />
-        <option value="$PROJECT_DIR$/css/reveal.scss" />
         <option value="$PROJECT_DIR$/css/theme/simple.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/reveal.scss" />
       </list>
     </option>
   </component>
@@ -417,16 +418,15 @@
       <option name="presentableId" value="Default" />
       <updated>1493974386368</updated>
       <workItem from="1493974389070" duration="2551000" />
-      <workItem from="1493993992047" duration="11788000" />
+      <workItem from="1493993992047" duration="12350000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14339000" />
+    <option name="totallyTimeSpent" value="14901000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="124" y="350" width="1551" height="845" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2496732" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -435,7 +435,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18459496" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18459496" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -503,13 +503,14 @@
           <first_editor relative-caret-position="795">
             <caret line="53" column="129" lean-forward="false" selection-start-line="53" selection-start-column="129" selection-end-line="53" selection-end-column="129" />
             <folding>
+              <element signature="n#style#0;n#div#0;n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               <element signature="n#style#0;n#img#0;n#div#0;n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               <element signature="n#style#0;n#img#1;n#div#0;n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               <element signature="n#style#0;n#div#1;n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               <element signature="n#style#0;n#div#2;n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               <element signature="n#style#0;n#table#0;n#div#2;n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               <element signature="n#style#0;n#td#1;n#tr#3;n#table#0;n#div#2;n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              <element signature="e#3705#3710#0" expanded="true" />
+              <element signature="e#3689#3694#0" expanded="true" />
               <element signature="n#style#0;n#div#3;n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               <element signature="n#style#0;n#p#0;n#div#3;n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -597,14 +598,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/reveal.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="1264" column="65" lean-forward="false" selection-start-line="1264" selection-start-column="60" selection-end-line="1264" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/theme/simple.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
@@ -616,16 +609,17 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownHtmlPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="94">
-            <caret line="58" column="69" lean-forward="false" selection-start-line="58" selection-start-column="69" selection-end-line="58" selection-end-column="69" />
+          <first_editor relative-caret-position="79">
+            <caret line="57" column="53" lean-forward="false" selection-start-line="57" selection-start-column="53" selection-end-line="57" selection-end-column="53" />
             <folding>
+              <element signature="n#style#0;n#div#0;n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               <element signature="n#style#0;n#img#0;n#div#0;n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               <element signature="n#style#0;n#img#1;n#div#0;n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               <element signature="n#style#0;n#div#1;n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               <element signature="n#style#0;n#div#2;n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               <element signature="n#style#0;n#table#0;n#div#2;n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               <element signature="n#style#0;n#td#1;n#tr#3;n#table#0;n#div#2;n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              <element signature="e#3705#3710#0" expanded="true" />
+              <element signature="e#3689#3694#0" expanded="true" />
               <element signature="n#style#0;n#div#3;n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               <element signature="n#style#0;n#p#0;n#div#3;n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -633,6 +627,14 @@
             </folding>
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/reveal.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="394" column="16" lean-forward="false" selection-start-line="394" selection-start-column="16" selection-end-line="394" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
