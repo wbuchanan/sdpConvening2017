@@ -12,7 +12,7 @@
 - [ ]	Tara Chiatovich
 - [ ]	Deborah Donovan
 - [ ]	Jon Fullerton
-- [ ]	Thomas Hay
+- [X]	Thomas Hay
 - [ ]	Kathryn Johnson
 - [ ]	Jared Knowles
 - [ ]	Sarah Kolbe
