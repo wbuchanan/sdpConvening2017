@@ -9,7 +9,7 @@
 ## Session Participants
 - [ ]	Alex Bowers
 - [x]	Roxana Del Campo
-- [ ]	Tara Chiatovich
+- [X]	Tara Chiatovich
 - [ ]	Deborah Donovan
 - [ ]	Jon Fullerton
 - [ ]	Thomas Hay
