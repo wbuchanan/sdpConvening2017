@@ -51,7 +51,7 @@ __1. Follow this link to create a [GitHub Account](https://github.com/join?sourc
 
 __2. There will be an option to use [two factor authentication](https://github.com/blog/1614-two-factor-authentication).  *We recommend setting this up from the beginning since it adds additional security to your account.*__
 
-__3. Once you've created and verified your account [click here](https://github.com/wbuchanan/sdpConvening2017/tree/prework) to get back to this page.__
+__3. Once you've created and verified your account [click here](https://github.com/wbuchanan/sdpConvening2017/blob/prework/prework.md) to get back to this page.__
 
 __4. Fork the repository__ : 
 
