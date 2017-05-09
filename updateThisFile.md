@@ -14,7 +14,7 @@
 - [ ]	Jon Fullerton
 - [X]	Thomas Hay
 - [ ]	Kathryn Johnson
-- [ ]	Jared Knowles
+- [X]	Jared Knowles
 - [x]	Sarah Kolbe
 - [ ]	Michael LaMont
 - [ ]	Jacob Lopez
