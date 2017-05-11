@@ -34,13 +34,6 @@
 		<script src="lib/js/html5shiv.js"></script>
 		<![endif]-->
 
-		<style type="text/css">
-			table .titlePageTable, tr, td {
-				border: none !important;
-			}
-		</style>
-		<link rel="stylesheet" href="plugin/title-footer/title-footer.css">
-
 	</head>
 
 	<!-- This is the starting point for all of the content.  If we want to use a set of connected slides, I can create a bigger 
@@ -55,35 +48,23 @@
 			<div class="slides">
 
 				<!-- This would be the title slide -->
-				<section data-state="no-title-footer">
-					<div style="display: inline-block;">
-						<img align="left" style="display: block; position: relative;  border:none; outline:none;" src="img/CEPRlogo.svg">
-						<img align="left" style="display: block; position: relative;  border:none; outline:none;" src="img/conveningBanner.svg"/>
-					</div>
-					<div align="left" style="display: block;">
-						<h2>Using Git to Promote Collaboration and Reproducible Resarch</h2>
-					</div>
-					<div style="display: inline-block;">
-						<table align="left" class="titlePageTable" style="display: inline-block;">
-							<tr>
-								<td><a href="https://github.com/nathant23">Nathan Trenholm</a></td><td>Partner</td><td><a href="https://www.datainsightpartners.com">Data Insight Partners</a></td><td>Cohort 6</td>
-							</tr>
-							<tr>
-								<td><a href="https://github.com/daphnejenkins">Daphne Jenkins</a></td><td>Data Engineer</td><td><a href="http://www.fcps.net">Fayette County Public Schools</a></td><td>Cohort 5</td>
-							</tr>
-							<tr>
-								<td><a href="https://github.com/jsonbecker">Jason Becker</a></td><td>Chief Product Officer</td><td><a href="http://allovue.com/">Allovue</a></td><td>Cohort 4</td>
-							</tr>
-							<tr>
-								<td><a href="https://github.com/wbuchanan">Billy Buchanan</a></td><td style="font-size: 24px;">Director of Data, Research, &amp; Accountability</td><td><a href="http://www.fcps.net">Fayette County Public Schools</a></td><td>Cohort 5</td>
-							</tr>
-						</table>
-					</div>
-					<div style="display: block;">
-						<p style="display: inline-block;">
-							<a href="https://twitter.com/HarvardCEPR">@HarvardCEPR</a>  &#8226   <a href="https://twitter.com/search?q=%23SDPConvening&src=typd">#SDPConvening</a><br><br><br>
-						</p>
-					</div>
+				<section width="100%">
+					<p>
+						<img height="auto" width="29.25%" align="left" style="display: block; position: absolute; top: -50px; left: -5px; border:none; outline:none;" src="https://static.hwpi.harvard.edu/files/styles/os_files_xxlarge/public/cepr/files/cepr_logo_3color.png?m=1493107543&itok=LGbV97QB">
+						<img height="auto" width="auto" align="left" style="border:none; outline:none; display: block" src="img/banner.svg"/>
+					</p>
+					<span width="100%">
+						<h3 style="display: inline-block">Using Git to Promote Collaboration and Reproducible Resarch</h3>
+					</span>
+					<p>
+						<p style="font-size: 36px"><a href="https://github.com/nathant23">Nathan Trenholm</a>, <a href="https://www.datainsightpartners.com">Data Insight Partners</a> - Cohort 6 </p>
+						<p style="font-size: 36px"><a href="https://github.com/daphnejenkins">Daphne Jenkins</a>, <a href="http://www.fcps.net">Fayette County Public Schools</a> - Cohort 5</p>
+						<p style="font-size: 36px"><a href="https://github.com/jsonbecker">Jason Becker</a>, <a href="http://allovue.com/">Allovue</a> - Cohort 4</p>
+						<p style="font-size: 36px"><a href="https://github.com/wbuchanan">Billy Buchanan</a>, <a href="http://www.fcps.net">Fayette County Public Schools</a> - Cohort 5</p>
+					</p>
+					<p>
+						<a href="https://twitter.com/HarvardCEPR">@HarvardCEPR</a>  &#8226   <a href="https://twitter.com/search?q=%23SDPConvening&src=typd">#SDPConvening</a><br><br><br>
+					</p>
 				</section>
 				<section>
 					<div style="font-size:36px; font-weight:bold"><a href="https://wbuchanan.github.io/sdpConvening2017">Slides available at: https://wbuchanan.github.io/sdpConvening2017</a></div>
@@ -105,6 +86,8 @@
 						</ol>
 					</div>
 				</section>
+
+				<!-- For big sections we can use the up/down arrow keys for navigation (e.g., diving deeper into the content). -->
 				<section>
 
 					<!-- h1 tags are way too big, but an h2 tag is pretty good for a section title -->
@@ -294,194 +277,9 @@
 					</section>
 				<!-- Now we have an end of a big section.  -->
 				</section>
-				<!-- For big sections we can use the up/down arrow keys for navigation (e.g., diving deeper into the content). -->
-				<section>
-
-					<!-- h1 tags are way too big, but an h2 tag is pretty good for a section title -->
-					<h2>Section Title Here</h2>
-
-					<!-- Press the down arrow to navigate within the top level section tag -->
-					<section>
-					
-						<!-- The extra space here helps to avoid the <h2> and <h3> tags over lapping -->
-						<br><br>
-						<h3>Subsection title here</h3>
-					
-						<!-- Use a div tag for the generic container for your content -->
-						<div>
-					
-							<!-- Use ul for bullets and ol for numbered bullet list -->
-							<ul>
-					
-								<!-- Use li tags around the individual bullet points -->
-								<li>Your bullet point</li>
-					
-									<!-- If you want nested lists you can do that too -->
-									<ol>
-					
-										<!-- First bullet point -->
-										<li>First sub point</li>
-										<li>Second sub point</li>
-					
-									<!-- Just remember to close every tag you open -->
-									</ol>
-					
-								<!-- This would be the second bullet point that isn't ordered -->
-								<li>Second unordered bullet point</li>
-					
-							<!-- Using tabs to show the nesting depth of your code will make it easier to identify where you need closing tags -->
-							</ul>
-					
-						<!-- This would close the end of the container for the content on this slide -->	
-						</div>	
-						
-						<!-- If you want to have notes available that only you will be able to see for a slide you can use the aside tag
-	      					and when you get to the slide deck on the computer you're using for the presentation hit the 'S' key to get into 
-						presenter mode.  It will show your notes and the next slide that is coming up along with a timer (very useful).  -->
-						<aside class="notes">
-
-							<!-- Anthing that is valid HTML can be used for your notes. -->
-							<ul>
-								<li>You can create presentation notes inside of a <pre>aside</pre> tag</li>
-							</ul>
-
-							<!-- You Can create paragraphs of content as well -->
-							<p>
-								Here is some random paragraph of content that I want to remember to tell people about.
-							</p>
-
-						</aside>
-
-					<!-- If there is another slide you would press the down arrow to get to it.  Think of this like you're going deeper
-	     				into the particular topic area versus switching to a new topic area with the left/right arrow keys. -->
-					</section>
-
-					<!-- Press the down arrow to get here -->
-					<section>
-						<br><br>
-						<h3>Some other related sub title</h3>
-						<div>
-							<!-- If you need/want to use any math, you can process LaTeX in the slide deck too -->
-							<p>
-								$$Pr(Y_{ij} = k | \theta_j) = \frac{exp^{ (\Sigma_{t=1}^k\alpha(\theta_j-\beta_{it}) ) }}{1 + \Sigma_{s = 1}^K exp^{ (\Sigma_{s=1}^s\alpha(\theta_j-\beta_{it}) ) } }  $$
-							</p>
-						</div>
-
-						<!-- Now you would see new notes for this individual slide.  The audience can only see it if you show them your view of things. -->
-						<aside class="notes">
-							<ul>
-								<li>The $N(0, 1)$ part just means that $\theta$ is normally distributed with a mean of 0 and standard deviation of 1</li>
-								<li>This model is used when you are using polytomous items, and reduces to the 1PL model if used with binary items</li>
-							</ul>
-						</aside>
-					</section>
-
-				<!-- Now we have an end of a big section.  -->
-				</section>
-
-				<!-- To get to this section you would use the left/right arrow keys -->
-				<section>
-
-					<h2>Big Section title</h2>
-					<section>
-						<br> <br>
-						<h3>This would also be a subsection title</h3>
-						<div>
-							<p> If you want to see any slide decks like this, I created this template from the <a href="https://github.com/hakimel/reveal.js/">Reveal.JS</a> sample and modified it for <a href="https://wbuchanan.github.io/kaacSlideDeck/#/">a talk about open source psychometrics</a> that I did in Louisville.</p>
-						</div>
-					</section>
-					<section>
-						<br><br>
-						<h3>Last sub section title</h3>
-						<div>
-							<p>Slides that can be integrated easily (if we want to all use the same styling and things like that) can be generated from <code>R</code> using the <code>revealjs</code> package: </p><br>
-								<pre>
-									<code data-trim data-noescape> 
-# Copy and paste this code to install package needed to generate slide decks
-# using the same JavaScript library in R
-install.packages("revealjs", type = "source")
-									</code>
-								</pre><br>
-							<p>See <a href="https://github.com/rstudio/revealjs">the package repository</a> for any additional information.	</p>
-						</div>
-					</section>
-				</section>
-
-				<!-- Template for a slide that would be used to navigate from left to right -->
-				<section>
-					<h2>Section Title</h2>
-					<div>
-						<ul>
-							<li></li>
-							<li></li>
-							<li></li>
-						</ul>
-					</div>
-				</section>
-
-				<!-- Template for slides that would be used to create top to bottom navigation -->
-				<section>
-					<h2>Section Title</h2>
-					<section>
-						<br><br>
-						<h3>Sub-section 1</h3>
-						<div>
-							<ul>
-								<li></li>
-								<li></li>
-								<li></li>
-							</ul>
-						</div>
-					</section>
-					<section>
-						<br><br>
-						<h3>Sub-section 2</h3>
-						<div>
-							<ul>
-								<li></li>
-								<li></li>
-								<li></li>
-							</ul>
-						</div>
-					</section>
-					<section>
-						<br><br>
-						<h3>Sub-section 3</h3>
-						<div>
-							<ul>
-								<li></li>
-								<li></li>
-								<li></li>
-							</ul>
-						</div>
-					</section>
-				</section>
-
-				<!-- If you want to include presentation notes, here is a 
-				template you can use to insert into slides for that structure too -->
-				<aside class="notes">
-					<ul>
-						<li>Point 1</li>
-						<li>Point 2</li>
-						<li>Point 3</li>
-					</ul>	
-				</aside>
 
 			</div>
 
-		</div>
-
-		<div id="hiddenTitle" style="display:none;">
-			<div id="titleOfSlideDeck">
-			</div>
-		</div>
-
-		<div id="hidden" style="display:none;">
-			<div id="header">
-				<div id="footer-left">
-
-				</div>
-			</div>
 		</div>
 
 		<script src="lib/js/head.min.js"></script>
@@ -515,8 +313,7 @@ install.packages("revealjs", type = "source")
 					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
 					{ src: 'plugin/zoom-js/zoom.js', async: true },
 					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/math/math.js', async: true },
-					{ src: 'plugin/title-footer/title-footer.js', async: true, callback: function() { title_footer.initialize(); }}
+					{ src: 'plugin/math/math.js', async: true }
 				]
 			});
 
