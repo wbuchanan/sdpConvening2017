@@ -28,5 +28,5 @@
 - [ ]	Ryan Wilson
 - [ ]	Hong Yin
 - [ ]	Sabrina Yusuf
-
+- [x] Mark Whiting
 
