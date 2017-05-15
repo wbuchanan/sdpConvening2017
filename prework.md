@@ -102,7 +102,7 @@ __To indicate that you've made it this far and to see how [Git](https://git-scm.
 - [x] Billy Buchanan
 ```
 
-__10. Add a commit message with your name in the subject line and a message letting us know how easy - _or not_ - it was to complete the pre-work and commit the change to your repository__ :
+__9. Add a commit message with your name in the subject line and a message letting us know how easy - _or not_ - it was to complete the pre-work and commit the change to your repository__ :
 
 
 ![Commit Button and Message](https://github.com/wbuchanan/sdpConvening2017/blob/prework/img/commitChanges.png)
@@ -114,7 +114,7 @@ __If you've been successful up to this point you'll see the file that you just e
 ![Post Commit File View](https://github.com/wbuchanan/sdpConvening2017/blob/prework/img/commitedChanges.png)
 
 
-__11. This is the last step...click the button to submit a pull request__ :
+__10. This is the last step...click the button to submit a pull request__ :
 
 
 ![Pull Request Button](https://github.com/wbuchanan/sdpConvening2017/blob/prework/img/pullRequestButton.png) 
@@ -132,7 +132,7 @@ __and use this phrase for the message: `I can haz all the stickerz!`.__
 ![Pull Request Message](https://github.com/wbuchanan/sdpConvening2017/blob/prework/img/pullRequestMessage.png)
 
 
-__12. You're done.  Congrats!  You've installed [Git](https://git-scm.com), created a [GitHub](https://github.com) account, forked a repository, modified the code base, commited the change, and submitted a pull request.__  
+__11. You're done.  Congrats!  You've installed [Git](https://git-scm.com), created a [GitHub](https://github.com) account, forked a repository, modified the code base, commited the change, and submitted a pull request.__  
 
 
 ![SUCCESS](https://github.com/wbuchanan/sdpConvening2017/blob/prework/img/success.png)
