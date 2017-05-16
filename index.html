@@ -56,12 +56,18 @@
 
 				<!-- This would be the title slide -->
 				<section data-state="no-title-footer">
-					<div style="display: inline-block;">
-						<img align="left" style="display: block; position: relative;  border:none; outline:none;" src="img/CEPRlogo.svg">
-						<img align="left" style="display: block; position: relative;  border:none; outline:none;" src="img/conveningBanner.svg"/>
-					</div>
+					<figure>
+						<div style="display: inline-block;">
+							<img align="left" width="25%" height="25%" style="display: block; position: relative;  border:none; outline:none;" src="img/CEPRlogo.svg"><br>
+						</div>
+					</figure>
+					<figure>
+						<div>
+							<img align="left" height="auto" width="auto" style="display: block; position: relative;  border:none; outline:none;" src="img/conveningBanner.svg"/>
+						</div>
+					</figure>
 					<div align="left" style="display: block;">
-						<h2>Using Git to Promote Collaboration and Reproducible Resarch</h2>
+						<h3>Using Git to Promote Collaboration and Reproducible Resarch</h3>
 					</div>
 					<div style="display: inline-block;">
 						<table align="left" class="titlePageTable" style="display: inline-block;">
@@ -157,8 +163,8 @@
 						<!-- Now you would see new notes for this individual slide.  The audience can only see it if you show them your view of things. -->
 						<aside class="notes">
 							<ul>
-								<li>The $N(0, 1)$ part just means that $\theta$ is normally distributed with a mean of 0 and standard deviation of 1</li>
-								<li>This model is used when you are using polytomous items, and reduces to the 1PL model if used with binary items</li>
+								<li></li>
+								<li></li>
 							</ul>
 						</aside>
 					</section>
@@ -191,8 +197,8 @@
 						<!-- Now you would see new notes for this individual slide.  The audience can only see it if you show them your view of things. -->
 						<aside class="notes">
 							<ul>
-								<li>The $N(0, 1)$ part just means that $\theta$ is normally distributed with a mean of 0 and standard deviation of 1</li>
-								<li>This model is used when you are using polytomous items, and reduces to the 1PL model if used with binary items</li>
+								<li></li>
+								<li></li>
 							</ul>
 						</aside>
 					</section>
@@ -224,22 +230,11 @@
 					<!-- Press the down arrow to get here -->
 					<section>
 						<h6 style="margin-top: 60px;"><b style="font-size: 2em;">G</b>iving <b style="font-size: 2em;">I</b>t <b style="font-size: 2em;">T</b>ime</h6>
-						<div style="text-align: left; font-size: 1.25em; font-weight: bold; text-decoration: underline;">
-						Constraints
-						</div>
-
+						<div style="text-align: left; font-size: 1.25em; font-weight: bold; text-decoration: underline;">Constraints</div>
 						<ul style="margin-top: 25px; display: block;">
-							<li class="fragment visible" data-fragment-index="1" style="margin-left: 50px;">
-							Slow and steady
-							</li>
-							<li style="margin-top: 25px; margin-left: 50px;" class="fragment visible" data-fragment-index="2">
-							Windows vs. Mac
-							</li>
-							<li class="fragment visible" data-fragment-index="3" style="margin-top: 25px; font-weight: bold; color: blue;">
-								The challenge is time.
-							</li>
-								
-							
+							<li class="fragment visible" data-fragment-index="1" style="margin-left: 50px;">Slow and steady</li>
+							<li style="margin-top: 25px; margin-left: 50px;" class="fragment visible" data-fragment-index="2">Windows vs. Mac</li>
+							<li class="fragment visible" data-fragment-index="3" style="margin-top: 25px; font-weight: bold; color: blue;">The challenge is time.</li>
 						</ul>
 						
 					</section>
@@ -266,8 +261,8 @@
 						<!-- Now you would see new notes for this individual slide.  The audience can only see it if you show them your view of things. -->
 						<aside class="notes">
 							<ul>
-								<li>The $N(0, 1)$ part just means that $\theta$ is normally distributed with a mean of 0 and standard deviation of 1</li>
-								<li>This model is used when you are using polytomous items, and reduces to the 1PL model if used with binary items</li>
+								<li></li>
+								<li></li>
 							</ul>
 						</aside>
 					</section>
@@ -278,7 +273,7 @@
 				<section>
 
 					<!-- h1 tags are way too big, but an h2 tag is pretty good for a section title -->
-					<h2>Section Title Here</h2>
+					<h2>Collaborative Workflows Stuff Here</h2>
 
 					<!-- Press the down arrow to navigate within the top level section tag -->
 					<section>
@@ -403,8 +398,8 @@ install.packages("revealjs", type = "source")
 				<section>
 					<section>
 						<h2 style="font-family: monospace;">
-							cd productManagement<br>
-							git init <br>
+							git pull jason <br>
+							git branch productManagement<br>
 						</h2>
 					</section>
 					<section>
@@ -418,70 +413,59 @@ install.packages("revealjs", type = "source")
 						</aside>
 					</section>
 					<section>
-						<h2 style="font-family: monospace;">
-							git add securityConcerns.md
-						</h2>
+						<h3 style="font-family: monospace;">
+							git add securityConcerns <br>
+							git commit -m "Good enough for DoD?<br>Good enough for me."<br>
+						</h3>
+						<aside class="notes">
+							<ul>
+								<li>The long/short of it is that we can't allow fear to prevent us from leveraging the capacity, capability, and skills of our network</li>
+								<li>Being more proactive will allow us to avoid these problems in general</li>
+							</ul>
+						</aside>
 					</section>
 					<section>
+						<div>
+							<ul>
+								<li>We need to comply with the requirements defined under <a href="https://ed.gov/policy/gen/guid/fpco/ferpa/index.html">FERPA</a>.</li>
+								<li>We've provided a sample <a href="https://github.com/wbuchanan/sdpConvening2017/blob/master/.gitignore" style="font-face:monospace">.gitignore file</a> that includes every common data file format we could think of.</li>
+								<li>No need to store data in flat files if you can build at run-time</li>
+							</ul>
+						</div>
+						<aside class="notes">
+							<ul>
+								<li></li>
+							</ul>
+						</aside>
+					</section>
+					<section>
+						<h3 style="font-family: monospace;">
+							git add configuration <br>
+							git commit -m "Configure <a href="https://git-scm.com">Git</a> to use a standard <a href="https://github.com/wbuchanan/sdpConvening2017/blob/master/.gitignore" style="font-face:monospace">.gitignore file</a>."
+						</h3>
+					</section>
+
+					<!--
+					<section>
+						<h3>Git to the rescue</h3>
 						<ul>
-							<li>Bullet Point about product roadmaps</li>
+							<li>Branching is good for developing extensible code</li>
+							<li>But <a href="https://git-scm.com">Git</a> also contains a built in magical undo function</li>
 						</ul>
 					</section>
-					<section>
-						<h2 style="font-family: monospace;">
-							git add yourRoadMap.md <br>
-							git push -u origin featureBranch
-						</h2>
+					<section data-autoslide="1500">
+						<img src="https://upload.wikimedia.org/wikipedia/en/6/6b/Neuralizer1.jpg" width="auto" height="auto">
 					</section>
+					<section>
+						<h3 style="font-family: monospace">
+							git reset --hard <br>
+						</h3>
+					</section>
+					-->
 				</section>
 
-				<!-- Template for slides that would be used to create top to bottom navigation -->
-				<section>
-					<h2>Section Title</h2>
-					<section>
-						<br><br>
-						<h3>Sub-section 1</h3>
-						<div>
-							<ul>
-								<li></li>
-								<li></li>
-								<li></li>
-							</ul>
-						</div>
-					</section>
-					<section>
-						<br><br>
-						<h3>Sub-section 2</h3>
-						<div>
-							<ul>
-								<li></li>
-								<li></li>
-								<li></li>
-							</ul>
-						</div>
-					</section>
-					<section>
-						<br><br>
-						<h3>Sub-section 3</h3>
-						<div>
-							<ul>
-								<li></li>
-								<li></li>
-								<li></li>
-							</ul>
-						</div>
-					</section>
-				</section>
 
-				<!-- If you want to include presentation notes, here is a 
-				template you can use to insert into slides for that structure too -->
-				<aside class="notes">
-					<ul>
-						<li>Point 1</li>
-						<li>Point 2</li>
-						<li>Point 3</li>
-					</ul>	
-				</aside>
+
 
 			</div>
 
