@@ -13,7 +13,7 @@
 - [x]	Deborah Donovan
 - [ ]	Jon Fullerton
 - [X]	Thomas Hay
-- [ ]	Kathryn Johnson
+- [x]	Kathryn Johnson
 - [X]	Jared Knowles
 - [x]	Sarah Kolbe
 - [ ]	Michael LaMont
