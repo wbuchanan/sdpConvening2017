@@ -31,13 +31,13 @@
   - Show some interesting repos to learn from
     - [Shiny Dashboard Demos](https://github.com/grahampicard/shinydashboard-map)
     - [Jared Knowles' R Tutorials](https://github.com/jknowles/r_tutorial_ed)
-    - [Git Cheatsheet](http://ndpsoftware.com/git-cheatsheet.html)
-    - [brewscheme](https://github.com/wbuchanan/brewscheme)
     <!--
+        [brewscheme](https://github.com/wbuchanan/brewscheme)
         The brewscheme thing isn't just a shameless plug, but would show
         ways that submodules can be used to handle larger projects in
         addition to setting up a gh-pages branch and things like that.
     -->
+
   - Power and implications of Open SDP
 
 
@@ -67,6 +67,18 @@
 
 # Product management strategies (Billy)
 
+## Security Concerns
+- Should we be concerned about open sourcing software?
+- Configuring [Git](https://git-scm.com) to address data concerns
+- The `.gitignore` file
+
+## Dependency Management Strategies
+- Managing dependencies within [Git](https://git-scm.com)
+- A brief introduction to `git submodule` and the `.gitmodules` file
+
+## Unbreakable
+- [Git](https://git-scm.com) for disaster recovery
+- If you like bacon and savings, you'll love `git reset`
 
 
 
