@@ -10,7 +10,7 @@
 - [ ]	Alex Bowers
 - [x]	Roxana Del Campo
 - [X]	Tara Chiatovich
-- [ ]	Deborah Donovan
+- [x]	Deborah Donovan
 - [ ]	Jon Fullerton
 - [X]	Thomas Hay
 - [ ]	Kathryn Johnson
