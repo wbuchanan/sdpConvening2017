@@ -29,4 +29,4 @@
 - [ ]	Hong Yin
 - [ ]	Sabrina Yusuf
 - [x] Mark Whiting
-
+- [x] Marina Levy
