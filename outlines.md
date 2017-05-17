@@ -61,6 +61,21 @@
 
 # Collaborative Work Flows (Jason)
 
+## Building a DVCS Culture
+- Define units of work.
+- Define when to use branches.
+- Issues and Projects are awesome
+
+## How to write good commit messages
+- Commit often, with good messages.
+- Default commit templates
+- Use `git commit -a` or `git commit -v` and not `git commit -m`
+- Strive to make commits `atomic`
+
+## How to properly pull request
+- What is a good PR message
+- How should code reviews occur
+- When to merge
 
 
 
