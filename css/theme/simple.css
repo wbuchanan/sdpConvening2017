@@ -157,8 +157,8 @@ body {
 .reveal pre code {
   display: block;
   overflow: scroll;
-  max-height: 450px;
-  max-width: 900px;
+  max-height: 700px;
+  max-width: 95%;
   max-font-size: 128px;
   word-wrap: normal; }
 
