@@ -110,14 +110,18 @@ title_footer.initialize=function(title,background)
     // Create the Title-Footer footer
     var title_footer=document.createElement('footer');
     title_footer.setAttribute('id','title-footer');
-    title_footer.setAttribute('width', 'auto');
-    title_footer.setAttribute('height', '75px');
+    title_footer.setAttribute('width', '97%');
+    title_footer.setAttribute('height', '20%');
     title_footer.setAttribute('style', 'margin-bottom: 3.5%;');
-    var img_element=document.createElement('img');
-    img_element.setAttribute('height','auto');
-    img_element.setAttribute('width', '100%');
-    img_element.setAttribute('src', 'img/conveningFooter.svg');
+    var img_element=document.createElement('object');
     title_footer.appendChild(img_element);
     var div_class_reveal=document.querySelectorAll('.reveal')[0];
     div_class_reveal.appendChild(title_footer);
+    img_element.setAttribute('type', 'image/svg+xml');
+    img_element.setAttribute('data', 'img/conveningFooter.svg');
+    var foot = document.getElementById('title-footer');
+    var footbox = foot.getBoundingClientRect();
+    var footWidth = footbox.width;
+    img_element.setAttribute('width', footWidth + 'px');
+
 };

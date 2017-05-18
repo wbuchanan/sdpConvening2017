@@ -141,13 +141,13 @@ body {
   font-style: italic; }
 
 .reveal pre {
-  display: block;
+  display: inline-block;
   position: relative;
-  width: 95%;
-  height: 95%;
-  font-size: 48px;
+  width: 110%;
+  height: 100%;
+  font-size: 42px;
   font-family: monospace;
-  line-height: 1.2em;
+  line-height: 0.85em;
   word-wrap: break-word;
    }
 
@@ -156,11 +156,9 @@ body {
 
 .reveal pre code {
   display: block;
-
-  overflow-x: scroll;
-  overflow-y: scroll;
-  max-height: 90%;
-  max-width: 90%;
+  overflow: scroll;
+  max-height: 450px;
+  max-width: 900px;
   max-font-size: 128px;
   word-wrap: normal; }
 

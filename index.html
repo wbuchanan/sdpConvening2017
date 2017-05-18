@@ -41,6 +41,7 @@
 		</style>
 		<link rel="stylesheet" href="plugin/title-footer/title-footer.css">
 
+
 	</head>
 
 	<!-- This is the starting point for all of the content.  If we want to use a set of connected slides, I can create a bigger 
@@ -55,63 +56,99 @@
 			<div class="slides">
 
 				<!-- This would be the title slide -->
-				<section data-state="no-title-footer">
-					<figure>
+				<section>
+					<section data-state="no-title-footer" id="title-banner" width="125%" height="auto">
+					</section>
+					<section>
+						<h2>Who we are</h2>
 						<div style="display: inline-block;">
-							<img align="left" width="25%" height="25%" style="display: block; position: relative;  border:none; outline:none;" src="img/CEPRlogo.svg"><br>
+							<table align="left" class="titlePageTable" style="display: inline-block;">
+								<tr>
+									<td><a href="https://github.com/nathant23">Nathan Trenholm</a></td><td>Partner</td><td><a href="https://www.datainsightpartners.com">Data Insight Partners</a></td><td>Cohort 6</td>
+								</tr>
+								<tr>
+									<td><a href="https://github.com/daphnejenkins">Daphne Jenkins</a></td><td>Data Engineer</td><td><a href="http://www.fcps.net">Fayette County Public Schools</a></td><td>Cohort 5</td>
+								</tr>
+								<tr>
+									<td><a href="https://github.com/jsonbecker">Jason Becker</a></td><td>Chief Product Officer</td><td><a href="http://allovue.com/">Allovue</a></td><td>Cohort 4</td>
+								</tr>
+								<tr>
+									<td><a href="https://github.com/wbuchanan">Billy Buchanan</a></td><td style="font-size: 24px;">Director of Data, Research, &amp; Accountability</td><td><a href="http://www.fcps.net">Fayette County Public Schools</a></td><td>Cohort 5</td>
+								</tr>
+							</table>
 						</div>
-					</figure>
-					<figure>
+					</section>
+					<section>
+						<div style="font-size:36px; font-weight:bold"><a href="https://wbuchanan.github.io/sdpConvening2017">Slides available at: https://wbuchanan.github.io/sdpConvening2017</a></div>
+					</section>
+
+					<!-- Press the right arrow key to move to a new section -->
+					<section>
+
+						<h2>Roadmap</h2>
+
+						<!-- need a container in the slide to store the content we are wanting to display. -->
 						<div>
-							<img align="left" height="auto" width="auto" style="display: block; position: relative;  border:none; outline:none;" src="img/conveningBanner.svg"/>
+
+							<!-- Create an ordered list of bullet points -->
+							<ol>
+								<li>Intro to Git</li>
+								<li>Challenges for New Users</li>
+								<li>Collaborative Work Flows</li>
+								<li>Product Management Strategies</li>
+								<li>Q &amp; A</li>
+							</ol>
 						</div>
-					</figure>
-					<div align="left" style="display: block;">
-						<h3>Using Git to Promote Collaboration and Reproducible Resarch</h3>
-					</div>
-					<div style="display: inline-block;">
-						<table align="left" class="titlePageTable" style="display: inline-block;">
-							<tr>
-								<td><a href="https://github.com/nathant23">Nathan Trenholm</a></td><td>Partner</td><td><a href="https://www.datainsightpartners.com">Data Insight Partners</a></td><td>Cohort 6</td>
-							</tr>
-							<tr>
-								<td><a href="https://github.com/daphnejenkins">Daphne Jenkins</a></td><td>Data Engineer</td><td><a href="http://www.fcps.net">Fayette County Public Schools</a></td><td>Cohort 5</td>
-							</tr>
-							<tr>
-								<td><a href="https://github.com/jsonbecker">Jason Becker</a></td><td>Chief Product Officer</td><td><a href="http://allovue.com/">Allovue</a></td><td>Cohort 4</td>
-							</tr>
-							<tr>
-								<td><a href="https://github.com/wbuchanan">Billy Buchanan</a></td><td style="font-size: 24px;">Director of Data, Research, &amp; Accountability</td><td><a href="http://www.fcps.net">Fayette County Public Schools</a></td><td>Cohort 5</td>
-							</tr>
-						</table>
-					</div>
-					<div style="display: block;">
-						<p style="display: inline-block;">
-							<a href="https://twitter.com/HarvardCEPR">@HarvardCEPR</a>  &#8226   <a href="https://twitter.com/search?q=%23SDPConvening&src=typd">#SDPConvening</a><br><br><br>
-						</p>
-					</div>
-				</section>
-				<section>
-					<div style="font-size:36px; font-weight:bold"><a href="https://wbuchanan.github.io/sdpConvening2017">Slides available at: https://wbuchanan.github.io/sdpConvening2017</a></div>
+					</section>
 				</section>
 
-				<!-- Press the right arrow key to move to a new section -->
 				<section>
+					<h2>Intro to Git</h2>
+					<section>
+						<h2 style="font-family: monospace;">
+							git init .<br>
+						</h2>
+					</section>
+<!--
+					<section>
+						<div>
+							<ul>
+								<li>This would be for Nate's section</li>
+							</ul>
+						</div>
+					</section>
+					<section>
+						<h2 style="font-family: monospace;">
+							git add somethingHere<br>
+						</h2>
+					</section>
+					<section>
+						<div>
+							<ul>
+								<li>This would be for Nate's second section</li>
+							</ul>
+						</div>
+					</section>
+-->
+					<section>
+						<h2 style="font-family: monospace;">
+							git add .<br>
+							git commit -a "Git Basics" <br>
+							git push daphne <br>
+						</h2>
+					</section>
 
-					<!-- need a container in the slide to store the content we are wanting to display. -->
-					<div>
-
-						<!-- Create an ordered list of bullet points -->
-						<ol>
-							<li>Intro to Git</li>
-							<li>Challenges for New Users</li>
-							<li>Collaborative Work Flows</li>
-							<li>Product Management Strategies</li>
-							<li>Q &amp; A</li>
-						</ol>
-					</div>
 				</section>
+
 				<section>
+
+					<section>
+						<h2 style="font-family: monospace;">
+							git pull nathan <br>
+							git branch daphne<br>
+						</h2>
+					</section>
+
 
 					<!-- h1 tags are way too big, but an h2 tag is pretty good for a section title -->
 					<h2>Challenges for New Users</h2>
@@ -261,146 +298,60 @@
 						<!-- Now you would see new notes for this individual slide.  The audience can only see it if you show them your view of things. -->
 						<aside class="notes">
 							<ul>
-								<li></li>
+								<li>You can also mention <a href="https://www.packtpub.com/packt/offers/free-learning">Packt Publishing Free Book of the Day</a></li>
 								<li></li>
 							</ul>
 						</aside>
 					</section>
-				<!-- Now we have an end of a big section.  -->
+
+					<section>
+						<h2 style="font-family: monospace;">
+							git add newUserPerspective <br>
+							git commit -a "Help New Users"<br>
+							git push jason
+						</h2>
+					</section>
+
+					<!-- Now we have an end of a big section.  -->
 				</section>
 
 				<!-- For big sections we can use the up/down arrow keys for navigation (e.g., diving deeper into the content). -->
 				<section>
 
-					<!-- h1 tags are way too big, but an h2 tag is pretty good for a section title -->
-					<h2>Collaborative Workflows Stuff Here</h2>
-
-					<!-- Press the down arrow to navigate within the top level section tag -->
 					<section>
-					
-						<!-- The extra space here helps to avoid the <h2> and <h3> tags over lapping -->
-						<br><br>
-						<h3>Subsection title here</h3>
-					
-						<!-- Use a div tag for the generic container for your content -->
-						<div>
-					
-							<!-- Use ul for bullets and ol for numbered bullet list -->
-							<ul>
-					
-								<!-- Use li tags around the individual bullet points -->
-								<li>Your bullet point</li>
-					
-									<!-- If you want nested lists you can do that too -->
-									<ol>
-					
-										<!-- First bullet point -->
-										<li>First sub point</li>
-										<li>Second sub point</li>
-					
-									<!-- Just remember to close every tag you open -->
-									</ol>
-					
-								<!-- This would be the second bullet point that isn't ordered -->
-								<li>Second unordered bullet point</li>
-					
-							<!-- Using tabs to show the nesting depth of your code will make it easier to identify where you need closing tags -->
-							</ul>
-					
-						<!-- This would close the end of the container for the content on this slide -->	
-						</div>	
-						
-						<!-- If you want to have notes available that only you will be able to see for a slide you can use the aside tag
-	      					and when you get to the slide deck on the computer you're using for the presentation hit the 'S' key to get into 
-						presenter mode.  It will show your notes and the next slide that is coming up along with a timer (very useful).  -->
-						<aside class="notes">
-
-							<!-- Anthing that is valid HTML can be used for your notes. -->
-							<ul>
-								<li>You can create presentation notes inside of a <pre>aside</pre> tag</li>
-							</ul>
-
-							<!-- You Can create paragraphs of content as well -->
-							<p>
-								Here is some random paragraph of content that I want to remember to tell people about.
-							</p>
-
-						</aside>
-
-					<!-- If there is another slide you would press the down arrow to get to it.  Think of this like you're going deeper
-	     				into the particular topic area versus switching to a new topic area with the left/right arrow keys. -->
+						<h2 style="font-family: monospace;">
+							git pull daphne <br>
+							git branch jason<br>
+						</h2>
 					</section>
 
-					<!-- Press the down arrow to get here -->
-					<section>
-						<br><br>
-						<h3>Some other related sub title</h3>
-						<div>
-							<!-- If you need/want to use any math, you can process LaTeX in the slide deck too -->
-							<p>
-								$$Pr(Y_{ij} = k | \theta_j) = \frac{exp^{ (\Sigma_{t=1}^k\alpha(\theta_j-\beta_{it}) ) }}{1 + \Sigma_{s = 1}^K exp^{ (\Sigma_{s=1}^s\alpha(\theta_j-\beta_{it}) ) } }  $$
-							</p>
-						</div>
+					<!-- h1 tags are way too big, but an h2 tag is pretty good for a section title -->
+					<h2>Collaborative Workflows</h2>
 
-						<!-- Now you would see new notes for this individual slide.  The audience can only see it if you show them your view of things. -->
-						<aside class="notes">
-							<ul>
-								<li>The $N(0, 1)$ part just means that $\theta$ is normally distributed with a mean of 0 and standard deviation of 1</li>
-								<li>This model is used when you are using polytomous items, and reduces to the 1PL model if used with binary items</li>
-							</ul>
-						</aside>
+					<section>
+						<h2 style="font-family: monospace;">
+							git add . <br>
+							git commit -a "Team Workflows"<br>
+							git push billy
+						</h2>
 					</section>
 
 				<!-- Now we have an end of a big section.  -->
 				</section>
 
-				<!-- To get to this section you would use the left/right arrow keys -->
-				<section>
-
-					<h2>Big Section title</h2>
-					<section>
-						<br> <br>
-						<h3>This would also be a subsection title</h3>
-						<div>
-							<p> If you want to see any slide decks like this, I created this template from the <a href="https://github.com/hakimel/reveal.js/">Reveal.JS</a> sample and modified it for <a href="https://wbuchanan.github.io/kaacSlideDeck/#/">a talk about open source psychometrics</a> that I did in Louisville.</p>
-						</div>
-					</section>
-					<section>
-						<br><br>
-						<h3>Last sub section title</h3>
-						<div>
-							<p>Slides that can be integrated easily (if we want to all use the same styling and things like that) can be generated from <code>R</code> using the <code>revealjs</code> package: </p><br>
-								<pre>
-									<code data-trim data-noescape> 
-# Copy and paste this code to install package needed to generate slide decks
-# using the same JavaScript library in R
-install.packages("revealjs", type = "source")
-									</code>
-								</pre><br>
-							<p>See <a href="https://github.com/rstudio/revealjs">the package repository</a> for any additional information.	</p>
-						</div>
-					</section>
-				</section>
-
-				<!-- Template for a slide that would be used to navigate from left to right -->
-				<section>
-					<h2>Section Title</h2>
-					<div>
-						<ul>
-							<li></li>
-							<li></li>
-							<li></li>
-						</ul>
-					</div>
-				</section>
-
-
 				<section>
 					<section>
+						<h2>Product Management</h2>
 						<h2 style="font-family: monospace;">
 							git pull jason <br>
-							git branch productManagement<br>
+							git branch billy <br>
 						</h2>
+						<aside class="notes">
+							<ul>
+								<li></li>
+								<li></li>
+							</ul>
+						</aside>
 					</section>
 					<section>
 						<iframe width="1200" height="600" data-src="https://www.youtube.com/embed/edCj5rjrfe8?rel=0&showinfo=0&start=429&end=749" frameborder="0" allowfullscreen data-autoplay></iframe>
@@ -413,9 +364,28 @@ install.packages("revealjs", type = "source")
 						</aside>
 					</section>
 					<section>
+						<h3>Configuring Git</h3>
+						<pre height="400px">
+							<code height="400px" data-trim data-noescape>
+mkdir -p ~/.git_template/{hooks,info}<br>
+cp [repo]/.gitconfig ~/.git_template/info/exclude<br>
+cp [repo]/.gitattributes ~/.git_template/info/attributes<br>
+git config --global core.excludesfile '~/.git_template/info/exclude'<br>
+git config --global core.attributesfile '~/.git_template/info/attributes'<br>
+							</code>
+						</pre>
+						<aside class="notes">
+							<ul>
+								<li>We need to comply with the requirements defined under <a href="https://ed.gov/policy/gen/guid/fpco/ferpa/index.html">FERPA</a>.</li>
+								<li>We've provided a sample <a href="https://github.com/wbuchanan/sdpConvening2017/blob/master/.gitignore" style="font-face:monospace">.gitignore file</a> that includes every common data file format we could think of.</li>
+								<li>No need to store data in flat files if you can build at run-time</li>
+							</ul>
+						</aside>
+					</section>
+					<section>
 						<h3 style="font-family: monospace;">
 							git add securityConcerns <br>
-							git commit -m "Good enough for DoD?<br>Good enough for me."<br>
+							git commit -a "Good enough for DoD?<br>Good enough for me."<br>
 						</h3>
 						<aside class="notes">
 							<ul>
@@ -425,43 +395,128 @@ install.packages("revealjs", type = "source")
 						</aside>
 					</section>
 					<section>
-						<div>
-							<ul>
-								<li>We need to comply with the requirements defined under <a href="https://ed.gov/policy/gen/guid/fpco/ferpa/index.html">FERPA</a>.</li>
-								<li>We've provided a sample <a href="https://github.com/wbuchanan/sdpConvening2017/blob/master/.gitignore" style="font-face:monospace">.gitignore file</a> that includes every common data file format we could think of.</li>
-								<li>No need to store data in flat files if you can build at run-time</li>
-							</ul>
-						</div>
+						<h3>Submodules</h3>
+<pre>
+<code data-trim data-noescape>
+# Move to a location where you will clone the repository on your machine
+cd ~/Desktop/Programs/other
+
+# Clone the hello-world example
+git clone https://github.com/wbuchanan/hello-world.git
+
+# Move to the directory where the repository was cloned
+cd hello-world
+
+# Create a new branch to work on
+git checkout -b submoduleExample
+
+# Add a submodule
+git submodule add https://github.com/wbuchanan/hello-submodule submodule
+
+# Check the status
+git status
+
+# New file starting with git so we'll look at it
+vi .gitmodules
+
+# There's also a new directory called submodule that we want to look at
+ls -lah submodule
+
+# If we look at the log in the root directory we only see the root
+# directory changes
+git log
+
+# Move into the submodule subdirectory
+cd submodule
+
+# Now, if we look at the log we only see the log for the submodule
+git log
+
+# Move back into the root directory
+cd ../
+
+# If you want to remove the submodules it is a bit more involved
+git submodule deinit -f submodule
+git rm -f submodule .gitmodules
+
+# Now move back to the original master
+git checkout master
+</code>
+</pre>
 						<aside class="notes">
 							<ul>
 								<li></li>
 							</ul>
 						</aside>
 					</section>
-					<section>
-						<h3 style="font-family: monospace;">
-							git add configuration <br>
-							git commit -m "Configure <a href="https://git-scm.com">Git</a> to use a standard <a href="https://github.com/wbuchanan/sdpConvening2017/blob/master/.gitignore" style="font-face:monospace">.gitignore file</a>."
-						</h3>
-					</section>
+<section>
+	<h2>If you like savings and you like bacon...</h2>
+<pre>
+<code data-trim data-noescape>
+# Recovering from errors
+# You can create a new branch based on a specific point in time
+git checkout -b newBranchOldCode 2cbc7a4ecd5f041e3777707635afacd50e7ba225
 
-					<!--
+# And now all of the history is gone from this branch
+git log
+
+# and can easily get back to the point in time that we need
+git checkout master
+
+# And verify it
+git log
+
+####
+#### Warning do not use git reset without first using git stash
+####
+
+# Stash your changes
+git stash
+
+# Show the stashed changes
+git stash list
+
+# Git reset
+git reset --soft 2cbc7a4ecd5f041e3777707635afacd50e7ba225
+
+# When you really just need to blow things up and get rid of the painful memories
+git reset --hard 6c8487392b19ce6db1d75b276a1356b9fdeb07c5
+
+# Apply the stashed changes
+git stash apply
+
+# Can also apply a specific stashed change
+git stash apply stash@{0}
+</code>
+</pre>
+</section>
 					<section>
-						<h3>Git to the rescue</h3>
 						<ul>
 							<li>Branching is good for developing extensible code</li>
 							<li>But <a href="https://git-scm.com">Git</a> also contains a built in magical undo function</li>
 						</ul>
+						<aside class="notes">
+							<ul>
+								<li></li>
+								<li></li>
+							</ul>
+						</aside>
 					</section>
-					<section data-autoslide="1500">
+					<section data-autoslide="900">
 						<img src="https://upload.wikimedia.org/wikipedia/en/6/6b/Neuralizer1.jpg" width="auto" height="auto">
 					</section>
 					<section>
 						<h3 style="font-family: monospace">
-							git reset --hard <br>
+							git add productManagement<br>
+							git commit -a "Git Saves The Day"<br>
+							git push -u origin master<br>
 						</h3>
 					</section>
-					-->
+					<section>
+						<h2>
+							Questions?
+						</h2>
+					</section>
 				</section>
 
 
@@ -519,6 +574,68 @@ install.packages("revealjs", type = "source")
 					{ src: 'plugin/title-footer/title-footer.js', async: true, callback: function() { title_footer.initialize(); }}
 				]
 			});
+
+		</script>
+		<script>
+            var titleSlide=document.getElementById('title-banner');
+            var ceprdiv = document.createElement('div'),
+                cepr=document.createElement('object'),
+                bannerdiv = document.createElement('div'),
+                banner = document.createElement('object'),
+				titlediv = document.createElement('div'),
+				title = document.createElement('h2'),
+				lnxdiv = document.createElement('div'),
+				lnxp = document.createElement('p'),
+				twitterlnx = document.createElement('a'),
+				hashtaglnx = document.createElement('a');
+
+
+				title.textContent = 'Using Git to Promote Collaboration and Reproducible Research';
+				titlediv.appendChild(title);
+				titlediv.setAttribute('style', 'display: inline-block');
+				lnxdiv.setAttribute('style', 'display: inline-block');
+				lnxp.setAttribute('style', 'display: block');
+				twitterlnx.setAttribute('href', 'https://twitter.com/HarvardCEPR');
+				hashtaglnx.setAttribute('href', 'https://twitter.com/search?q=%23SDPConvening&src=typd');
+				twitterlnx.textContent = '@HarvardCEPR • ';
+				hashtaglnx.textContent = '#SDPConvening';
+
+				lnxp.appendChild(twitterlnx);
+				lnxp.appendChild(hashtaglnx);
+				lnxdiv.appendChild(lnxp);
+
+            ceprdiv.appendChild(cepr);
+            bannerdiv.appendChild(banner);
+
+            titleSlide.appendChild(ceprdiv);
+            titleSlide.appendChild(bannerdiv);
+			titleSlide.appendChild(titlediv);
+			titleSlide.appendChild(lnxdiv);
+
+            cepr.setAttribute('type', 'image/svg+xml');
+            cepr.setAttribute('data', 'img/CEPRlogo.svg');
+            cepr.setAttribute('align', 'left');
+            ceprdiv.setAttribute('width', '20%');
+            ceprdiv.setAttribute('align', 'left');
+            ceprdiv.setAttribute('style', 'display: block');
+            bannerdiv.setAttribute('width', '125%');
+//            bannerdiv.setAttribute('height', '25%');
+            bannerdiv.setAttribute('align', 'left');
+            bannerdiv.setAttribute('style', 'display: block');
+            banner.setAttribute('type', 'image/svg+xml');
+            banner.setAttribute('data', 'img/conveningBanner.svg');
+            banner.setAttribute('align', 'left');
+
+
+            var ceprbox = ceprdiv.getBoundingClientRect(),
+                bannerbox = bannerdiv.getBoundingClientRect();
+
+            var ceprWidth = ceprbox.width,
+                bannerWidth = bannerbox.width;
+
+            bannerdiv.setAttribute('style', 'margin: ' + bannerWidth * 0.05 + 'px 0px');
+            cepr.setAttribute('width', ceprWidth * 0.2 + 'px');
+            banner.setAttribute('width', bannerWidth * 1.05 + 'px');
 
 		</script>
 	</body>

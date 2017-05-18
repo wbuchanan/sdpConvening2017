@@ -1,0 +1,11 @@
+target/* linguist-vendored
+*.java linguist-vendored=true
+*.ado linguist-language=Stata
+*.do linguist-language=Stata
+*.sthlp linguist-language=Stata
+*.mata linguist-language=Stata
+*.mlib linguist-language=Stata
+*.mo linguist-language=Stata
+*.dta linguist-language=Stata
+*.Rds linguist-language=R
+*.Rdata linguist-language=R
