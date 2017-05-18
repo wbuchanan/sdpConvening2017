@@ -19,7 +19,7 @@
 - [ ]	Michael LaMont
 - [ ]	Jacob Lopez
 - [ ]	Laura Maurizi
-- [ ]	Devin McGhee
+- [x]	Devin McGhee
 - [ ]	Meg Nipson
 - [ ]	David Stevens
 - [ ]	Alden Wells Toiv
