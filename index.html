@@ -365,7 +365,7 @@
 					</section>
 					<section>
 						<h3>Configuring Git</h3>
-						<pre height="400px">
+						<pre height="40>
 							<code height="400px" data-trim data-noescape>
 mkdir -p ~/.git_template/{hooks,info}<br>
 cp [repo]/.gitconfig ~/.git_template/info/exclude<br>
@@ -399,47 +399,60 @@ git config --global core.attributesfile '~/.git_template/info/attributes'<br>
 <pre>
 <code data-trim data-noescape>
 # Move to a location where you will clone the repository on your machine
+
 cd ~/Desktop/Programs/other
 
 # Clone the hello-world example
+
 git clone https://github.com/wbuchanan/hello-world.git
 
 # Move to the directory where the repository was cloned
+
 cd hello-world
 
 # Create a new branch to work on
+
 git checkout -b submoduleExample
 
 # Add a submodule
+
 git submodule add https://github.com/wbuchanan/hello-submodule submodule
 
 # Check the status
+
 git status
 
 # New file starting with git so we'll look at it
-vi .gitmodules
+
+cat .gitmodules
 
 # There's also a new directory called submodule that we want to look at
+
 ls -lah submodule
 
-# If we look at the log in the root directory we only see the root
-# directory changes
+# If we look at the log in the root directory we only see the root directory changes
+
 git log
 
 # Move into the submodule subdirectory
+
 cd submodule
 
 # Now, if we look at the log we only see the log for the submodule
+
 git log
 
 # Move back into the root directory
+
 cd ../
 
 # If you want to remove the submodules it is a bit more involved
+
 git submodule deinit -f submodule
 git rm -f submodule .gitmodules
 
 # Now move back to the original master
+
 git checkout master
 </code>
 </pre>
@@ -449,62 +462,59 @@ git checkout master
 							</ul>
 						</aside>
 					</section>
-<section>
+
+<section data-autoslide="900">
 	<h2>If you like savings and you like bacon...</h2>
+	<img src="https://upload.wikimedia.org/wikipedia/en/6/6b/Neuralizer1.jpg" width="auto" height="auto">
+</section>
+<section>
 <pre>
 <code data-trim data-noescape>
-# Recovering from errors
 # You can create a new branch based on a specific point in time
+
 git checkout -b newBranchOldCode 2cbc7a4ecd5f041e3777707635afacd50e7ba225
 
 # And now all of the history is gone from this branch
+
 git log
 
 # and can easily get back to the point in time that we need
+
 git checkout master
 
 # And verify it
+
 git log
 
-####
 #### Warning do not use git reset without first using git stash
-####
 
 # Stash your changes
+
 git stash
 
 # Show the stashed changes
+
 git stash list
 
 # Git reset
+
 git reset --soft 2cbc7a4ecd5f041e3777707635afacd50e7ba225
 
 # When you really just need to blow things up and get rid of the painful memories
+
 git reset --hard 6c8487392b19ce6db1d75b276a1356b9fdeb07c5
 
 # Apply the stashed changes
+
 git stash apply
 
 # Can also apply a specific stashed change
+
 git stash apply stash@{0}
 </code>
 </pre>
 </section>
-					<section>
-						<ul>
-							<li>Branching is good for developing extensible code</li>
-							<li>But <a href="https://git-scm.com">Git</a> also contains a built in magical undo function</li>
-						</ul>
-						<aside class="notes">
-							<ul>
-								<li></li>
-								<li></li>
-							</ul>
-						</aside>
-					</section>
-					<section data-autoslide="900">
-						<img src="https://upload.wikimedia.org/wikipedia/en/6/6b/Neuralizer1.jpg" width="auto" height="auto">
-					</section>
+
 					<section>
 						<h3 style="font-family: monospace">
 							git add productManagement<br>
